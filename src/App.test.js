@@ -29,6 +29,5 @@ describe('Probando componente App', () => {
 
     //console.log(wrapper.find(Title).html());
     //expect(wrapper.find('h1').html()).toBe('<h1>Introduccion a Unit Testing</h1>');
-    
   });
 });

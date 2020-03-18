@@ -1,10 +1,9 @@
 import React from 'react';
-import logo from './logo.svg';
+import Counter from './components/Counter';
 import './App.css';
 
-export const Title = () => {
-  <h1>Introduccion a Unit Testing</h1>
-}
+
+export const Title = () => (<h1>Introduccion a Unit Testing</h1>);
 
 function App() {
   return (
@@ -15,6 +14,7 @@ function App() {
        <span num='3' active='false'>Segundo</span>
      </div>
      <input type='text' />
+     <Counter />
     </section>
   );
 }
